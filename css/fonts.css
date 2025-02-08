@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Italic Funnel";
+    src: url(/fonts/FunnelSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Funnel";
+    src: url(/fonts/FunnelSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Lexend";
+    src: url(/fonts/Lexend-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(/fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: "Italic Roboto";
+    src: url(/fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "Italic Thin";
+    src: url(/fonts/Urbanist-ThinItalic.ttf);
+}
