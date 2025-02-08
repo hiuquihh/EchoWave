@@ -1,0 +1,147 @@
+body, html {
+    margin: 0;
+    padding: 0;                /* Professor, me perdoa por esse responsive horrivel, mas estou*/
+    width: 100%;               /*muito cansada, estou desde a madrugada de ontem a noite fazendo*/
+    overflow-x: hidden;        /*e dormi poquissimas horas(3) e tenho q cuidar das coisas daqui de casa,*/
+  }                            /*porque a minha vo viajou, estou com dor no corpo q nem uma idosa, peço que reconsidere*/
+  
+  @media (max-width: 1024px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .right-section {
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    #app-title {
+      font-size: 1.5rem; 
+      margin: 10px 0;
+    }
+  
+    #about,
+    #products {
+      font-size: 0.8rem; 
+      margin: 5px;
+    }
+  
+    .banner {
+      height: 300px; 
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .text-banner {
+      width: 90%;
+    }
+  
+    .banner h1 {
+      font-size: 1.8rem; 
+    }
+  
+    .banner p {
+      font-size: 1.1rem; 
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    #container-plano {
+      padding: 20px 10px; 
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    #imagem-trio {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    #imagem-trio img {
+      width: 150px; 
+      height: 150px; 
+    }
+  
+    #slogan-conteudo {
+      font-size: 1.5rem; 
+      margin-top: 5%;
+    }
+  
+    .linha {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 5px; 
+    }
+  
+    #app-title {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    #about,
+    #products {
+      font-size: 0.75rem; 
+    }
+  
+    .banner {
+      height: 200px; 
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .text-banner {
+      width: 100%;
+    }
+  
+    .banner h1 {
+      font-size: 1.4rem; 
+    }
+  
+    .banner p {
+      font-size: 1rem;
+    }
+  
+    #container-plano {
+      padding: 15px 5px; 
+      box-sizing: border-box;
+    }
+  
+    .conteudo {
+      padding: 20px 5px; 
+    }
+  
+    #slogan-conteudo {
+      font-size: 1.2rem; 
+      margin-top: 5%;
+    }
+  
+    #imagem-trio {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    #imagem-trio img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .saiba-mais {
+      padding: 8px;
+    }
+  
+    footer {
+      font-size: 12px; 
+      padding: 5px;
+    }
+  }

@@ -1,185 +1,252 @@
 :root {
-    --banner-image: url(../img/img1.jpg);
-    --plano-image: url(../img/img6.jpeg);
-    --header-background: #d6e8f3;
-    --marketing-black-background: radial-gradient(#000, #222111);
-    --marketing-white-background: #fff;
-    --footer-background: #24252a;
-  }
+  --banner-image: url(../img/img1.jpg);
+  --plano-image: url(../img/img6.jpeg);
+  --header-background: #d6e8f3;
+  --marketing-black-background: radial-gradient(#000, #222111);
+  --marketing-white-background: #fff;
+  --footer-background: #24252a;
+}
+
 body {
-    margin: 0;
-    font-size: 1rem;
-  }
-  
-  header {
-    background-color: #d6e8f3;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    opacity: 1;
-    box-sizing: border-box;
-  }
-  
-  #app-title,
-  #about,
-  #products {
-    color: #110b01;
-  }
-  
-  #app-title {
-    font-family: "Funnel";
-    margin: 0;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-left: 20px;
-  }
-  
-  #about,
-  #products {
-    font-family: "Roboto";
-    font-size: 1rem;
-    text-decoration: none;
-    margin-left: 20px; 
-  }
-  
-  .right-section {
-    margin-left: auto; /* Move o contêiner para a direita */
-    display: flex;
-    align-items: center;
-  }
-  
-  #disco {
-    position: center;
-    top: 10px;
-    left: 10px;
-    width: 60px;
-    animation: rotation 2.5s infinite linear;
-  }
-  
-  #about:hover,
-  #products:hover {
-    color: #b77a8d;
-  }
+  margin: 0;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #d6e8f3;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+#app-title,
+#about,
+#products {
+  color: #110b01;
+}
+
+#app-title {
+  font-family: "Funnel";
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+#about,
+#products {
+  font-family: "Roboto";
+  font-size: 1rem;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.right-section {
+  margin-left: auto;
+  /* Move o contêiner para a direita */
+  display: flex;
+  align-items: center;
+}
+
+#disco {
+  position: center;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  animation: rotation 2.5s infinite linear;
+}
+
+#about:hover,
+#products:hover {
+  color: #b77a8d;
+}
+
 /* Banner */
 .banner {
-    height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      var(--banner-image);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  .text-banner{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-  }
-.banner h1, .banner p {
-  width: 100%; /* Ou um valor maior, como 80% */
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--banner-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-  .banner h1 {
-    font-size: 2.5rem; 
-    font-family: "Lexend";
-    text-align: center;
-    font-weight: bold; 
-    color: white;
-    text-shadow:
-  18.8px 31.2px 18.9px rgba(0, 0, 0, 0.085),
-  150px 249px 151px rgba(0, 0, 0, 0.17)
-;
-  }
-  
-  .banner p {
-    font-size: 1.8rem; 
-    margin: 0; 
-    font-family: "Italic Thin";
-    text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.5);  
-    text-align: center;
-    margin-left: 60%;
-    font-weight: 700;
-    color: #fff;
-  }
+
+.text-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.banner h1,
+.banner p {
+  width: 100%;
+  /* Ou um valor maior, como 80% */
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  font-family: "Lexend";
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    18.8px 31.2px 18.9px rgba(0, 0, 0, 0.085),
+    150px 249px 151px rgba(0, 0, 0, 0.17);
+}
+
+.banner p {
+  font-size: 1.8rem;
+  margin: 0;
+  font-family: "Italic Thin";
+  text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.5);
+  text-align: center;
+  margin-left: 60%;
+  font-weight: 700;
+  color: #fff;
+}
 
 /* Conteudo */
-  .conteudo {
-    text-align: center;
-    padding: 60px 20px ;
-    background-color: rgb(247, 226, 226);
-  }
+.conteudo {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgb(247, 226, 226);
+}
 
-  .conteudo, .teste-gratis {
-    flex-direction: column;
+.conteudo,
+.teste-gratis {
+  flex-direction: column;
 
-  }
-  
-  #slogan-conteudo {
-    font-size: 2.3rem;
-    font-family: "Pacifico";
-    font-weight: 600;
-    margin-bottom: 40px;
-    margin-top: 20%;
-    color: #1f2024;
-  }
-  
-  #imagem-trio {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
+}
 
-  }
-  
-  #imagem-trio img {
-    margin-top: 2rem;
-    width: 300px; 
-    height: 300px; 
-    object-fit: cover; 
-    background-size: cover;
-    animation: fade-in 1s ease-out forwards;
-    border-radius: 10%;
+#slogan-conteudo {
+  font-size: 2.3rem;
+  font-family: "Pacifico";
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 20%;
+  color: #1f2024;
+}
 
-  }
-  
-  #imagem-trio img:hover {
-    transform: scale(1.1);
-    z-index: 10; /* Garante que a imagem aumentada fique por cima */
-  }
+#imagem-trio {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
 
-  #headset-text, #playlist-text, #lupa {
-    font-size: 1em;
-    font-family: "Funnel";
-    font-weight: 700;
-    color: #1f2024;
-  }
+}
+
+#imagem-trio img {
+  margin-top: 2rem;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-size: cover;
+  animation: fade-in 1s ease-out forwards;
+  border-radius: 10%;
+
+  transition: all 0.5s;
+}
+
+#imagem-trio img:hover {
+  scale: 1.1;
+}
+
+#headset-text,
+#playlist-text,
+#lupa {
+  font-size: 1em;
+  font-family: "Funnel";
+  font-weight: 700;
+  color: #1f2024;
+}
+
+#container-plano {
+  background-color: rgb(247, 226, 226);
+}
+
+#teste-gratis {
+  background-color: rgba(27, 34, 44, 0.93);
+  border-top-left-radius: 10%;
+  color: white;
+
+  text-align: center;
+}
+
 #slogan-plano {
   margin-top: 10%;
+  text-align: center;
+  font-family: "Funnel";
+  font-weight: 700;
+  font-size: 1.25rem;
+}
 
+.saiba-mais {
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.saiba-mais:hover {
+  opacity: .9;
+}
+
+.linha {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.coluna {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+#logo-plano {
+  align-items: flex-end;
+  flex: 0;
+}
+
+#logo {
+  float: right;
+  width: 256px;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  margin-right: 0;
 }
 
 .marquee-container {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background: black; /* Cor de fundo */
   padding: 10px 0;
 }
+
 .marquee-text {
+  font-family: "Roboto";
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  animation: marquee 10s linear infinite;
+  animation: marquee 5s linear infinite;
 }
+
 footer {
-  background-color: rgb(27, 34, 44);
-  padding: 30px 20px;
+  background-color: rgb(229, 245, 252);
+  padding: 15px 20px;
   text-align: center;
-  font-size: 1em;
+  font-size: 14.5px;
   line-height: 1.5;
-  color: rgb(246, 241, 226);
+  color: rgb(27, 34, 44);
+  font-family: "Roboto";
 }
