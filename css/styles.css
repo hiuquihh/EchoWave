@@ -1,5 +1,6 @@
 :root {
     --banner-image: url(../img/img1.jpg);
+    --plano-image: url(../img/img6.jpeg);
     --header-background: #d6e8f3;
     --marketing-black-background: radial-gradient(#000, #222111);
     --marketing-white-background: #fff;
@@ -154,11 +155,31 @@ body {
     font-weight: 700;
     color: #1f2024;
   }
-   #teste-gratis {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-  }
-  
+#slogan-plano {
+  margin-top: 10%;
+
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: black; /* Cor de fundo */
+  padding: 10px 0;
+}
+.marquee-text {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  animation: marquee 10s linear infinite;
+}
+footer {
+  background-color: rgb(27, 34, 44);
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  color: rgb(246, 241, 226);
+}
